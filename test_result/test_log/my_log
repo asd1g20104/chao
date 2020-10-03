@@ -1,0 +1,908 @@
+[2020-09-21 19:11:13,495]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常注册
+[2020-09-21 19:11:14,417]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': '20110', 'msg': '手机号码已被注册'}
+[2020-09-21 19:11:14,419]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第2条测试用例:不输入手机号
+[2020-09-21 19:11:15,053]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': '20110', 'msg': '手机号码已被注册'}
+[2020-09-21 19:11:15,055]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第3条测试用例:不输入密码
+[2020-09-21 19:11:15,375]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': '20103', 'msg': '密码不能为空'}
+[2020-09-21 19:11:15,377]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第4条测试用例:输入已存在的手机号
+[2020-09-21 19:11:16,033]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': '20110', 'msg': '手机号码已被注册'}
+[2020-09-21 19:11:16,034]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第5条测试用例:输入错误的手机号
+[2020-09-21 19:11:16,315]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': '20109', 'msg': '手机号码格式不正确'}
+[2020-09-21 19:11:16,316]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-21 19:11:16,956]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+[2020-09-21 19:11:16,958]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-21 19:11:17,971]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:{'sta[167 chars]ount': '3600.00', 'type': '1'}, 'code': '10001', 'msg': '充值成功'} != {'sta[167 chars]ount': '3800.00', 'type': '1'}, 'code': '10001', 'msg': '充值成功'}
+  {'code': '10001',
+   'data': {'id': 406687,
+-           'leaveamount': '3600.00',
+?                            ^
+
++           'leaveamount': '3800.00',
+?                            ^
+
+            'mobilephone': '18024172723',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2020-09-15 22:39:56.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2020-09-21 19:11:18,294]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': {'regname': '小蜜蜂', 'mobilephone': '18024172723', 'id': 406687, 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '3800.00', 'type': '1'}, 'code': '10001', 'msg': '充值成功'}
+[2020-09-21 19:11:18,297]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-21 19:11:19,273]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:{'sta[167 chars]ount': '3700.00', 'type': '1'}, 'code': '10001', 'msg': '充值成功'} != {'sta[167 chars]ount': '3900.00', 'type': '1'}, 'code': '10001', 'msg': '充值成功'}
+  {'code': '10001',
+   'data': {'id': 406687,
+-           'leaveamount': '3700.00',
+?                            ^
+
++           'leaveamount': '3900.00',
+?                            ^
+
+            'mobilephone': '18024172723',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2020-09-15 22:39:56.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2020-09-21 19:11:19,681]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': {'regname': '小蜜蜂', 'mobilephone': '18024172723', 'id': 406687, 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '3900.00', 'type': '1'}, 'code': '10001', 'msg': '充值成功'}
+[2020-09-25 14:59:32,181]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 14:59:32,208]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 14:59:52,200]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 14:59:53,059]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+[2020-09-25 14:59:53,061]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:01:09,427]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:01:10,295]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'data': None, 'status': 1}
+[2020-09-25 15:01:10,298]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:11:37,259]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:11:37,981]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'status': 1, 'code': '10001', 'msg': '登录成功'}
+[2020-09-25 15:11:37,985]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:19:03,409]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:19:04,081]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}
+[2020-09-25 15:19:04,084]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:21:40,914]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:21:41,602]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'status': 1, 'msg': '登录成功', 'data': None}
+[2020-09-25 15:21:41,605]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:23:53,469]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:23:54,352]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'data': None, 'status': 1, 'code': '10001'}
+[2020-09-25 15:23:54,354]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:24:52,162]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:24:53,041]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}
+[2020-09-25 15:24:53,043]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:25:51,250]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:25:52,138]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}
+[2020-09-25 15:25:52,141]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:29:11,231]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:29:11,964]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'data': None, 'status': 1}
+[2020-09-25 15:29:11,967]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:30:22,801]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:30:23,538]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+[2020-09-25 15:30:23,541]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:30:23,877]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1} != {'code': '10001', 'data': None, 'msg': '加标成功', 'status': 1}
+[2020-09-25 15:30:24,214]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '加标成功'}
+[2020-09-25 15:39:09,317]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:39:10,116]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}
+[2020-09-25 15:39:10,118]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:39:10,937]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'status': 1, 'msg': '加标成功', 'code': '10001'}
+[2020-09-25 15:56:20,648]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:56:21,423]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+[2020-09-25 15:56:21,427]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:56:22,216]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '加标成功'}
+[2020-09-25 15:58:34,401]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 15:58:35,230]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-25 15:58:35,233]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 15:58:35,900]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '加标成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-25 16:12:45,319]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:12:46,068]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1}
+[2020-09-25 16:12:46,071]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:12:46,934]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '加标成功', 'status': 1}
+[2020-09-25 16:12:46,937]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 16:12:46,975]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1} != {'code': '20212', 'data': None, 'msg': '请根据数值参数的类型对应输入合法的数字', 'status': 0}
+[2020-09-25 16:12:47,341]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '20212', 'data': None, 'msg': '请根据数值参数的类型对应输入合法的数字', 'status': 0}
+[2020-09-25 16:14:14,913]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:14:15,654]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'status': 1, 'msg': '登录成功'}
+[2020-09-25 16:14:15,656]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:14:16,404]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'status': 1, 'msg': '加标成功'}
+[2020-09-25 16:14:16,411]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 16:14:16,844]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '20212', 'data': None, 'status': 0, 'msg': '请根据数值参数的类型对应输入合法的数字'}
+[2020-09-25 16:20:16,718]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:20:17,679]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+[2020-09-25 16:20:17,681]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:20:18,364]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '加标成功'}
+[2020-09-25 16:20:18,366]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 16:20:18,719]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': '20212', 'msg': '请根据数值参数的类型对应输入合法的数字'}
+[2020-09-25 16:21:50,649]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:21:51,553]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}
+[2020-09-25 16:21:51,558]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:21:52,286]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'msg': '加标成功', 'data': None}
+[2020-09-25 16:21:52,293]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 16:21:52,310]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20212', 'data': None, 'msg': '请根据数值参数的类型对应输入合法的数字', 'status': 0} != {'code': '20203', 'data': None, 'msg': '参数错误：所有参数不能为空', 'status': 0}
+[2020-09-25 16:21:52,733]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'code': '20203', 'msg': '参数错误：所有参数不能为空', 'data': None}
+[2020-09-25 16:25:54,278]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:25:55,083]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'msg': '登录成功', 'status': 1, 'code': '10001'}
+[2020-09-25 16:25:55,085]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:25:55,847]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'msg': '加标成功', 'status': 1, 'code': '10001'}
+[2020-09-25 16:27:04,798]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:27:05,526]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+[2020-09-25 16:27:05,530]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:27:06,271]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '加标成功'}
+[2020-09-25 16:28:30,827]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:28:31,513]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'msg': '登录成功', 'status': 1, 'data': None}
+[2020-09-25 16:28:31,516]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:28:32,181]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'msg': '加标成功', 'status': 1, 'data': None}
+[2020-09-25 16:28:54,803]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:28:55,498]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+[2020-09-25 16:28:55,501]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:28:56,111]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '加标成功'}
+[2020-09-25 16:29:40,757]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:29:41,482]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+[2020-09-25 16:29:41,485]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:29:42,170]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '加标成功'}
+[2020-09-25 16:29:42,173]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 16:29:42,512]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': '20212', 'msg': '请根据数值参数的类型对应输入合法的数字'}
+[2020-09-25 16:30:07,566]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:30:08,275]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'status': 1, 'msg': '登录成功', 'data': None}
+[2020-09-25 16:30:08,277]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:30:08,900]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'status': 1, 'msg': '加标成功', 'data': None}
+[2020-09-25 16:51:40,055]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:51:40,843]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1}
+[2020-09-25 16:51:40,845]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:51:41,640]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '加标成功', 'status': 1}
+[2020-09-25 16:54:38,797]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:54:39,595]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'msg': '登录成功', 'status': 1}
+[2020-09-25 16:54:39,597]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:54:40,278]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'msg': '加标成功', 'status': 1}
+[2020-09-25 16:55:20,572]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 16:55:21,569]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+[2020-09-25 16:55:21,572]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 16:55:22,230]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '加标成功'}
+[2020-09-25 16:55:22,233]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 16:55:22,688]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'code': '20212', 'data': None, 'msg': '请根据数值参数的类型对应输入合法的数字'}
+[2020-09-25 17:05:08,821]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 17:05:09,647]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '登录成功', 'data': None, 'code': '10001'}
+[2020-09-25 17:05:09,651]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 17:05:10,677]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '加标成功', 'data': None, 'code': '10001'}
+[2020-09-25 17:05:10,682]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 17:05:11,020]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'msg': '请根据数值参数的类型对应输入合法的数字', 'data': None, 'code': '20212'}
+[2020-09-25 17:05:35,916]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 17:05:36,647]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'status': 1, 'code': '10001', 'msg': '登录成功'}
+[2020-09-25 17:05:36,649]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 17:05:37,457]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'status': 1, 'code': '10001', 'msg': '加标成功'}
+[2020-09-25 17:05:37,461]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 17:05:37,496]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20212', 'data': None, 'msg': '请根据数值参数的类型对应输入合法的数字', 'status': 0} != {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1}
+[2020-09-25 17:05:37,793]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'status': 1, 'code': '10001', 'msg': '更新状态成功：竞标开始，当前标为竞标中状态'}
+[2020-09-25 17:40:51,372]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-25 17:40:52,061]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '登录成功', 'data': None, 'code': '10001'}
+[2020-09-25 17:40:52,063]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-25 17:40:52,846]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '加标成功', 'data': None, 'code': '10001'}
+[2020-09-25 17:40:52,849]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-25 17:40:53,163]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'data': None, 'code': '10001'}
+[2020-09-26 19:00:09,654]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 19:00:10,674]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 19:09:39,142]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 19:09:39,698]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 19:11:49,023]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 19:11:49,684]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 19:13:08,782]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 19:13:09,211]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:32:29,819]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:32:30,259]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:32:30,297]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '竞标成功', 'status': 1} != {'code': None, 'data': None, 'msg': '抱歉，请先登录。', 'status': 0}
+[2020-09-26 21:32:30,637]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '抱歉，请先登录。', 'code': None, 'data': None, 'status': 0}
+[2020-09-26 21:35:32,062]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:35:32,823]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:47:40,409]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:47:41,812]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:51:03,025]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:51:03,935]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:51:32,622]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:51:33,382]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:53:03,981]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:53:04,705]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:53:31,751]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:53:32,569]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:54:45,515]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:54:46,406]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 21:57:51,635]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 21:57:52,489]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:01:31,705]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-26 22:01:32,565]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}
+[2020-09-26 22:01:32,571]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-26 22:01:33,406]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '加标成功', 'code': '10001', 'data': None}
+[2020-09-26 22:01:33,410]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-26 22:01:33,814]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'code': '10001', 'data': None}
+[2020-09-26 22:04:57,956]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:04:58,789]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:05:19,987]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:05:21,993]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:07:04,855]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:07:06,727]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:07:53,547]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:07:53,891]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-26 22:07:54,282]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1}
+[2020-09-26 22:07:54,557]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:09:52,783]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:09:53,475]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'status': 1, 'data': None, 'msg': '登录成功'}
+[2020-09-26 22:09:53,750]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:13:32,903]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:13:33,574]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'data': None, 'status': 1, 'code': '10001'}
+[2020-09-26 22:13:33,968]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:14:38,186]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:14:38,972]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'status': 1, 'code': '10001', 'data': None}
+[2020-09-26 22:14:39,283]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:14:39,605]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: Decimal('4699.00') != Decimal('4899.00')
+[2020-09-26 22:14:40,008]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '竞标成功', 'status': 1, 'code': '10001', 'data': None}
+[2020-09-26 22:24:15,658]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:24:16,377]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'data': None, 'status': 1, 'code': '10001'}
+[2020-09-26 22:24:16,779]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:24:17,136]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: Decimal('4699.00') != Decimal('4899.00')
+[2020-09-26 22:24:17,500]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '竞标成功', 'data': None, 'status': 1, 'code': '10001'}
+[2020-09-26 22:28:32,248]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:28:32,879]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1}
+[2020-09-26 22:28:33,174]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:28:33,549]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: Decimal('4699.00') != Decimal('4899.00')
+[2020-09-26 22:28:33,903]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '竞标成功', 'status': 1}
+[2020-09-26 22:37:02,062]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Login模块里的第1条测试用例:正常登录
+[2020-09-26 22:37:02,844]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-26 22:37:03,123]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Invets模块里的第2条测试用例:正常投资
+[2020-09-26 22:37:03,873]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '竞标成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-26 23:11:36,039]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:11:36,073]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:11:36,085]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:12:05,918]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:12:05,927]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:12:05,933]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:12:21,900]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:12:22,848]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1}
+[2020-09-26 23:12:22,850]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:12:23,872]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '3800.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '4399.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:12:24,316]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': {'regname': '小蜜蜂', 'regtime': '2020-09-15 22:39:56.0', 'type': '1', 'mobilephone': '18024172723', 'id': 406687, 'leaveamount': '4399.00', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}, 'msg': '充值成功', 'status': 1}
+[2020-09-26 23:12:24,325]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:12:25,322]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '3900.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '4499.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:12:25,691]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': {'regname': '小蜜蜂', 'regtime': '2020-09-15 22:39:56.0', 'type': '1', 'mobilephone': '18024172723', 'id': 406687, 'leaveamount': '4499.00', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}, 'msg': '充值成功', 'status': 1}
+[2020-09-26 23:45:28,434]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:45:29,148]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+[2020-09-26 23:45:29,529]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:45:30,833]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: Decimal('4599.00') != Decimal('4499.00')
+[2020-09-26 23:45:31,217]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '4599.00', 'mobilephone': '18024172723', 'regname': '小蜜蜂', 'id': 406687, 'type': '1', 'regtime': '2020-09-15 22:39:56.0'}, 'code': '10001', 'status': 1, 'msg': '充值成功'}
+[2020-09-26 23:45:31,231]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:45:32,249]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '4699.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:45:32,685]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '4699.00', 'mobilephone': '18024172723', 'regname': '小蜜蜂', 'id': 406687, 'type': '1', 'regtime': '2020-09-15 22:39:56.0'}, 'code': '10001', 'status': 1, 'msg': '充值成功'}
+[2020-09-26 23:51:52,816]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:51:53,543]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'msg': '登录成功', 'status': 1, 'code': '10001'}
+[2020-09-26 23:51:53,831]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:51:55,095]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: Decimal('4799.00') != Decimal('4699.00')
+[2020-09-26 23:51:55,510]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'regtime': '2020-09-15 22:39:56.0', 'leaveamount': '4799.00', 'regname': '小蜜蜂', 'type': '1', 'id': 406687, 'mobilephone': '18024172723', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}, 'msg': '充值成功', 'status': 1, 'code': '10001'}
+[2020-09-26 23:51:55,516]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:51:56,555]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '4899.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:51:56,928]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'regtime': '2020-09-15 22:39:56.0', 'leaveamount': '4899.00', 'regname': '小蜜蜂', 'type': '1', 'id': 406687, 'mobilephone': '18024172723', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}, 'msg': '充值成功', 'status': 1, 'code': '10001'}
+[2020-09-26 23:55:06,390]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:55:07,222]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+[2020-09-26 23:55:07,501]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:55:08,786]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: Decimal('5099.00') != Decimal('4899.00')
+[2020-09-26 23:55:09,206]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18024172723', 'type': '1', 'regname': '小蜜蜂', 'id': 406687, 'regtime': '2020-09-15 22:39:56.0', 'leaveamount': '4999.00'}, 'code': '10001', 'status': 1, 'msg': '充值成功'}
+[2020-09-26 23:55:09,211]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:55:10,224]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5099.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:55:10,587]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18024172723', 'type': '1', 'regname': '小蜜蜂', 'id': 406687, 'regtime': '2020-09-15 22:39:56.0', 'leaveamount': '5099.00'}, 'code': '10001', 'status': 1, 'msg': '充值成功'}
+[2020-09-26 23:55:49,240]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:55:49,942]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}
+[2020-09-26 23:55:50,255]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:55:51,644]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '4399.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5199.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:55:52,039]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'mobilephone': '18024172723', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '5199.00', 'regtime': '2020-09-15 22:39:56.0', 'regname': '小蜜蜂', 'id': 406687, 'type': '1'}, 'status': 1, 'msg': '充值成功', 'code': '10001'}
+[2020-09-26 23:55:52,051]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:55:53,140]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5299.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:55:53,507]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'mobilephone': '18024172723', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '5299.00', 'regtime': '2020-09-15 22:39:56.0', 'regname': '小蜜蜂', 'id': 406687, 'type': '1'}, 'status': 1, 'msg': '充值成功', 'code': '10001'}
+[2020-09-26 23:57:25,298]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:57:26,085]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'msg': '登录成功', 'status': 1, 'data': None}
+[2020-09-26 23:57:26,356]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:57:27,647]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5299.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5399.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:57:28,057]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'msg': '充值成功', 'status': 1, 'data': {'regname': '小蜜蜂', 'leaveamount': '5399.00', 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'id': 406687, 'mobilephone': '18024172723'}}
+[2020-09-26 23:57:28,070]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:57:29,061]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5499.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:57:29,404]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'msg': '充值成功', 'status': 1, 'data': {'regname': '小蜜蜂', 'leaveamount': '5499.00', 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'id': 406687, 'mobilephone': '18024172723'}}
+[2020-09-26 23:58:02,887]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:58:03,597]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+[2020-09-26 23:58:03,894]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:58:05,392]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5499.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5599.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:58:05,777]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': {'mobilephone': '18024172723', 'id': 406687, 'regname': '小蜜蜂', 'type': '1', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '5599.00', 'regtime': '2020-09-15 22:39:56.0'}, 'code': '10001', 'msg': '充值成功'}
+[2020-09-26 23:58:05,784]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:58:06,915]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5699.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:58:07,299]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': {'mobilephone': '18024172723', 'id': 406687, 'regname': '小蜜蜂', 'type': '1', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '5699.00', 'regtime': '2020-09-15 22:39:56.0'}, 'code': '10001', 'msg': '充值成功'}
+[2020-09-26 23:59:02,801]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-26 23:59:03,498]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'status': 1, 'msg': '登录成功'}
+[2020-09-26 23:59:03,778]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-26 23:59:05,079]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5699.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5799.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:59:05,476]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': {'type': '1', 'mobilephone': '18024172723', 'leaveamount': '5799.00', 'regname': '小蜜蜂', 'id': 406687, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regtime': '2020-09-15 22:39:56.0'}, 'status': 1, 'msg': '充值成功'}
+[2020-09-26 23:59:05,485]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-26 23:59:06,476]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '5899.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-26 23:59:06,941]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': {'type': '1', 'mobilephone': '18024172723', 'leaveamount': '5899.00', 'regname': '小蜜蜂', 'id': 406687, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regtime': '2020-09-15 22:39:56.0'}, 'status': 1, 'msg': '充值成功'}
+[2020-09-27 00:04:54,653]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:04:55,375]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-27 00:04:55,697]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:04:57,526]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'code': '10001', 'status': 1, 'data': {'type': '1', 'regtime': '2020-09-15 22:39:56.0', 'id': 406687, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regname': '小蜜蜂', 'mobilephone': '18024172723', 'leaveamount': '5999.00'}}
+[2020-09-27 00:04:57,528]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:04:58,725]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '6099.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:04:59,059]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'code': '10001', 'status': 1, 'data': {'type': '1', 'regtime': '2020-09-15 22:39:56.0', 'id': 406687, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regname': '小蜜蜂', 'mobilephone': '18024172723', 'leaveamount': '6099.00'}}
+[2020-09-27 00:39:34,631]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:39:35,357]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'status': 1, 'data': None, 'msg': '登录成功'}
+[2020-09-27 00:39:35,734]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:39:36,728]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:39:37,725]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '6299.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:39:38,059]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'status': 1, 'data': {'regname': '小蜜蜂', 'type': '1', 'mobilephone': '18024172723', 'id': 406687, 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '6299.00'}, 'msg': '充值成功'}
+[2020-09-27 00:40:24,192]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:40:24,875]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'status': 1, 'data': None, 'code': '10001'}
+[2020-09-27 00:40:25,212]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:40:26,499]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': 'amount',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '6399.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:40:26,921]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'status': 1, 'data': {'id': 406687, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regname': '小蜜蜂', 'regtime': '2020-09-15 22:39:56.0', 'mobilephone': '18024172723', 'leaveamount': '6399.00', 'type': '1'}, 'code': '10001'}
+[2020-09-27 00:40:26,928]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:40:27,921]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '6499.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:40:28,265]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'status': 1, 'data': {'id': 406687, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regname': '小蜜蜂', 'regtime': '2020-09-15 22:39:56.0', 'mobilephone': '18024172723', 'leaveamount': '6499.00', 'type': '1'}, 'code': '10001'}
+[2020-09-27 00:42:35,934]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:42:36,672]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+[2020-09-27 00:42:36,947]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:42:38,271]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-27 00:42:38,678]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'leaveamount': '6599.00', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'id': 406687, 'type': '1', 'mobilephone': '18024172723', 'regtime': '2020-09-15 22:39:56.0'}, 'code': '10001', 'status': 1, 'msg': '充值成功'}
+[2020-09-27 00:42:38,685]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:42:39,691]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '6699.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:42:40,056]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': {'leaveamount': '6699.00', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'id': 406687, 'type': '1', 'mobilephone': '18024172723', 'regtime': '2020-09-15 22:39:56.0'}, 'code': '10001', 'status': 1, 'msg': '充值成功'}
+[2020-09-27 00:45:45,118]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:45:45,822]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+[2020-09-27 00:45:46,103]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:45:47,409]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-27 00:45:47,798]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': {'id': 406687, 'regtime': '2020-09-15 22:39:56.0', 'type': '1', 'mobilephone': '18024172723', 'leaveamount': '6799.00', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}, 'msg': '充值成功'}
+[2020-09-27 00:45:47,808]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:45:48,941]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '6899.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:45:49,858]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': {'id': 406687, 'regtime': '2020-09-15 22:39:56.0', 'type': '1', 'mobilephone': '18024172723', 'leaveamount': '6899.00', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}, 'msg': '充值成功'}
+[2020-09-27 00:47:21,128]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:47:21,897]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '登录成功', 'code': '10001', 'data': None}
+[2020-09-27 00:47:22,185]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:47:23,463]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-27 00:47:24,064]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '充值成功', 'code': '10001', 'data': {'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '6999.00', 'type': '1', 'mobilephone': '18024172723', 'regname': '小蜜蜂', 'id': 406687}}
+[2020-09-27 00:47:24,074]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:47:25,074]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '7099.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:47:25,492]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'msg': '充值成功', 'code': '10001', 'data': {'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '7099.00', 'type': '1', 'mobilephone': '18024172723', 'regname': '小蜜蜂', 'id': 406687}}
+[2020-09-27 00:54:21,641]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:54:22,383]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'data': None, 'status': 1, 'code': '10001'}
+[2020-09-27 00:54:22,752]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:54:24,051]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-27 00:54:24,484]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'data': {'leaveamount': '7199.00', 'regname': '小蜜蜂', 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'id': 406687, 'mobilephone': '18024172723'}, 'status': 1, 'code': '10001'}
+[2020-09-27 00:54:24,488]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:54:25,491]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '7299.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:54:25,872]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'data': {'leaveamount': '7299.00', 'regname': '小蜜蜂', 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'id': 406687, 'mobilephone': '18024172723'}, 'status': 1, 'code': '10001'}
+[2020-09-27 00:55:12,337]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:55:13,037]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1}
+[2020-09-27 00:55:13,340]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:55:14,637]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-27 00:55:15,202]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': {'type': '1', 'leaveamount': '7399.00', 'regname': '小蜜蜂', 'id': 406687, 'mobilephone': '18024172723', 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}, 'msg': '充值成功', 'status': 1}
+[2020-09-27 00:55:15,207]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:55:16,203]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '7499.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:55:16,607]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': {'type': '1', 'leaveamount': '7499.00', 'regname': '小蜜蜂', 'id': 406687, 'mobilephone': '18024172723', 'regtime': '2020-09-15 22:39:56.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}, 'msg': '充值成功', 'status': 1}
+[2020-09-27 00:56:46,908]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 00:56:47,614]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+[2020-09-27 00:56:47,885]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 00:56:49,193]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': 'amount',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '7599.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:56:49,667]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': {'type': '1', 'leaveamount': '7599.00', 'id': 406687, 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18024172723', 'regtime': '2020-09-15 22:39:56.0'}, 'msg': '充值成功'}
+[2020-09-27 00:56:49,680]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 00:56:50,670]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '7699.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 00:56:51,074]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'data': {'type': '1', 'leaveamount': '7699.00', 'id': 406687, 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18024172723', 'regtime': '2020-09-15 22:39:56.0'}, 'msg': '充值成功'}
+[2020-09-27 01:00:52,975]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 01:00:53,695]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'data': None, 'code': '10001', 'status': 1}
+[2020-09-27 01:00:53,985]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 01:00:55,325]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-27 01:00:55,809]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'data': {'id': 406687, 'regname': '小蜜蜂', 'mobilephone': '18024172723', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'leaveamount': '7799.00', 'regtime': '2020-09-15 22:39:56.0'}, 'code': '10001', 'status': 1}
+[2020-09-27 01:00:55,820]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 01:00:56,837]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '7899.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 01:00:57,205]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'data': {'id': 406687, 'regname': '小蜜蜂', 'mobilephone': '18024172723', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'leaveamount': '7899.00', 'regtime': '2020-09-15 22:39:56.0'}, 'code': '10001', 'status': 1}
+[2020-09-27 01:04:27,925]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 01:04:28,697]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'data': None, 'status': 1}
+[2020-09-27 01:04:29,116]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 01:04:30,405]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Can't convert 'dict' object to str implicitly
+[2020-09-27 01:04:30,898]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'code': '10001', 'data': {'mobilephone': '18024172723', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'regtime': '2020-09-15 22:39:56.0', 'leaveamount': '7999.00', 'regname': '小蜜蜂', 'id': 406687}, 'status': 1}
+[2020-09-27 01:04:30,910]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 01:04:31,909]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '8099.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 01:04:32,313]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'code': '10001', 'data': {'mobilephone': '18024172723', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'regtime': '2020-09-15 22:39:56.0', 'leaveamount': '8099.00', 'regname': '小蜜蜂', 'id': 406687}, 'status': 1}
+[2020-09-27 01:05:35,637]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 01:05:36,469]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'msg': '登录成功', 'data': None}
+[2020-09-27 01:05:36,742]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 01:05:38,014]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-27 01:05:38,458]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'msg': '充值成功', 'data': {'mobilephone': '18024172723', 'type': '1', 'regname': '小蜜蜂', 'leaveamount': '8199.00', 'id': 406687, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regtime': '2020-09-15 22:39:56.0'}}
+[2020-09-27 01:05:38,470]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 01:05:39,477]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '8299.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 01:05:39,921]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'code': '10001', 'msg': '充值成功', 'data': {'mobilephone': '18024172723', 'type': '1', 'regname': '小蜜蜂', 'leaveamount': '8299.00', 'id': 406687, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regtime': '2020-09-15 22:39:56.0'}}
+[2020-09-27 01:06:16,485]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 01:06:19,203]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-27 01:06:19,526]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 01:06:20,925]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:eval() arg 1 must be a string, bytes or code object
+[2020-09-27 01:06:23,516]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'code': '10001', 'status': 1, 'data': {'leaveamount': '8399.00', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regtime': '2020-09-15 22:39:56.0', 'mobilephone': '18024172723', 'type': '1', 'id': 406687, 'regname': '小蜜蜂'}}
+[2020-09-27 01:06:23,587]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 01:06:24,701]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '8499.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 01:06:27,134]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '充值成功', 'code': '10001', 'status': 1, 'data': {'leaveamount': '8499.00', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'regtime': '2020-09-15 22:39:56.0', 'mobilephone': '18024172723', 'type': '1', 'id': 406687, 'regname': '小蜜蜂'}}
+[2020-09-27 01:08:45,950]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 01:08:46,620]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}
+[2020-09-27 01:08:46,946]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 01:08:48,405]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001',
+ 'data': {'id': 406687,
+          'leave8599.00': '8599.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '8599.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 01:08:48,770]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': {'mobilephone': '18024172723', 'regtime': '2020-09-15 22:39:56.0', 'regname': '小蜜蜂', 'id': 406687, 'type': '1', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '8599.00'}, 'msg': '充值成功', 'code': '10001'}
+[2020-09-27 01:08:48,776]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 01:08:49,962]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '8699.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 01:08:50,280]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': {'mobilephone': '18024172723', 'regtime': '2020-09-15 22:39:56.0', 'regname': '小蜜蜂', 'id': 406687, 'type': '1', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'leaveamount': '8699.00'}, 'msg': '充值成功', 'code': '10001'}
+[2020-09-27 01:14:02,932]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常登录
+[2020-09-27 01:14:03,703]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': None, 'status': 1, 'msg': '登录成功'}
+[2020-09-27 01:14:04,002]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第2条测试用例:充值
+[2020-09-27 01:14:05,834]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'id': 406687, 'leaveamount': '8799.00', 'type': '1', 'mobilephone': '18024172723', 'regname': '小蜜蜂', 'regtime': '2020-09-15 22:39:56.0'}, 'status': 1, 'msg': '充值成功'}
+[2020-09-27 01:14:05,837]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试recharge模块里的第3条测试用例:充值
+[2020-09-27 01:14:06,903]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0} != {'code': '10001',
+ 'data': {'id': 406687,
+          'leaveamount': '8899.00',
+          'mobilephone': '18024172723',
+          'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+          'regname': '小蜜蜂',
+          'regtime': '2020-09-15 22:39:56.0',
+          'type': '1'},
+ 'msg': '充值成功',
+ 'status': 1}
+[2020-09-27 01:14:07,279]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'id': 406687, 'leaveamount': '8899.00', 'type': '1', 'mobilephone': '18024172723', 'regname': '小蜜蜂', 'regtime': '2020-09-15 22:39:56.0'}, 'status': 1, 'msg': '充值成功'}
+[2020-09-29 21:28:05,742]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-29 21:28:06,184]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '登录成功', 'status': 1} != {'code': '20111', 'data': None, 'msg': '用户名或密码错误', 'status': 0}
+[2020-09-29 21:28:06,644]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+[2020-09-29 21:28:06,696]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-29 21:28:07,327]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '加标成功', 'status': 1} != {'code': None, 'data': None, 'msg': '抱歉，请先登录。', 'status': 0}
+[2020-09-29 21:28:07,795]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': None, 'msg': '抱歉，请先登录。'}
+[2020-09-29 21:28:07,806]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-29 21:28:07,837]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1} != {'code': None, 'data': None, 'msg': '抱歉，请先登录。', 'status': 0}
+[2020-09-29 21:28:08,427]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'code': None, 'msg': '抱歉，请先登录。'}
+[2020-09-29 21:32:28,113]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-29 21:32:28,864]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'data': None, 'code': '10001', 'status': 1}
+[2020-09-29 21:32:28,866]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-29 21:32:33,169]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '加标成功', 'data': None, 'code': '10001', 'status': 1}
+[2020-09-29 21:32:33,172]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-29 21:32:33,188]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1} != {'code': '20212', 'data': None, 'msg': '请根据数值参数的类型对应输入合法的数字', 'status': 0}
+[2020-09-29 21:32:33,575]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '请根据数值参数的类型对应输入合法的数字', 'data': None, 'code': '20212', 'status': 0}
+[2020-09-29 22:17:43,085]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-29 22:17:43,904]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-29 22:17:43,909]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-29 22:17:44,775]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '加标成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-29 22:17:44,777]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-29 22:17:44,795]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1} != {'code': '20212', 'data': None, 'msg': '请根据数值参数的类型对应输入合法的数字', 'status': 0}
+[2020-09-29 22:17:45,128]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '请根据数值参数的类型对应输入合法的数字', 'code': '20212', 'status': 0, 'data': None}
+[2020-09-29 22:20:10,296]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-29 22:20:11,130]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'status': 1, 'data': None, 'msg': '登录成功'}
+[2020-09-29 22:20:11,135]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-29 22:20:11,773]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'status': 1, 'data': None, 'msg': '加标成功'}
+[2020-09-29 22:25:09,212]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-29 22:25:10,046]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'msg': '登录成功', 'status': 1, 'data': None}
+[2020-09-29 22:25:10,048]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-29 22:25:10,683]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '10001', 'msg': '加标成功', 'status': 1, 'data': None}
+[2020-09-29 22:25:10,688]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-29 22:25:10,705]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1} != {'code': '20207', 'data': None, 'msg': '修改失败，当前标已经是该状态', 'status': 0}
+[2020-09-29 22:25:11,032]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'code': '20207', 'msg': '修改失败，当前标已经是该状态', 'status': 0, 'data': None}
+[2020-09-29 22:42:04,222]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-29 22:42:05,051]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+[2020-09-29 22:42:05,053]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-29 22:42:05,891]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '加标成功'}
+[2020-09-29 23:16:32,480]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-29 23:16:33,350]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '登录成功'}
+[2020-09-29 23:16:33,352]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-29 23:16:38,465]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'code': '10001', 'status': 1, 'msg': '加标成功'}
+[2020-09-29 23:32:37,016]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-29 23:32:37,860]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '登录成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-29 23:32:37,862]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-29 23:32:41,964]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '加标成功', 'code': '10001', 'status': 1, 'data': None}
+[2020-09-29 23:32:41,966]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-29 23:32:42,097]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1} != {'code': '20207', 'data': None, 'msg': '修改失败，当前标已经是该状态', 'status': 0}
+[2020-09-29 23:32:42,403]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'msg': '修改失败，当前标已经是该状态', 'code': '20207', 'status': 0, 'data': None}
+[2020-09-30 00:40:12,376]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-30 00:40:13,453]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'msg': '登录成功', 'code': '10001', 'status': 1}
+[2020-09-30 00:40:13,456]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-30 00:40:15,984]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'msg': '加标成功', 'code': '10001', 'status': 1}
+[2020-09-30 00:40:15,987]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-30 00:40:16,102]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1} != {'code': '20207', 'data': None, 'msg': '修改失败，当前标已经是该状态', 'status': 0}
+[2020-09-30 00:40:16,421]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'data': None, 'msg': '修改失败，当前标已经是该状态', 'code': '20207', 'status': 0}
+[2020-09-30 00:59:51,534]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-30 00:59:52,416]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}
+[2020-09-30 00:59:52,419]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-30 00:59:57,358]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'msg': '加标成功', 'code': '10001'}
+[2020-09-30 00:59:57,364]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-30 00:59:57,499]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1} != {'code': '20207', 'data': None, 'msg': '修改失败，当前标已经是该状态', 'status': 0}
+[2020-09-30 00:59:57,866]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'msg': '修改失败，当前标已经是该状态', 'code': '20207'}
+[2020-09-30 01:08:47,629]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-30 01:08:47,638]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-30 01:11:28,697]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-09-30 01:11:29,551]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'msg': '登录成功', 'code': '10001'}
+[2020-09-30 01:11:29,554]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-09-30 01:11:31,501]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 1, 'data': None, 'msg': '加标成功', 'code': '10001'}
+[2020-09-30 01:11:31,504]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-09-30 01:11:31,611]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是: :: {'code': '10001', 'data': None, 'msg': '更新状态成功：竞标开始，当前标为竞标中状态', 'status': 1} != {'code': '20207', 'data': None, 'msg': '修改失败，当前标已经是该状态', 'status': 0}
+[2020-09-30 01:11:31,888]-[INFO]-[my_log.py]-[api-log]-日志信息：实际结果:{'status': 0, 'data': None, 'msg': '修改失败，当前标已经是该状态', 'code': '20207'}
+[2020-10-03 23:41:06,715]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常注册
+[2020-10-03 23:41:06,729]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第2条测试用例:不输入手机号
+[2020-10-03 23:41:06,730]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第3条测试用例:不输入密码
+[2020-10-03 23:41:06,731]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第4条测试用例:输入已存在的手机号
+[2020-10-03 23:41:06,732]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第5条测试用例:输入错误的手机号
+[2020-10-03 23:41:06,734]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-10-03 23:41:06,873]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:41:06,910]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-10-03 23:41:07,546]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:41:07,549]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-10-03 23:41:07,607]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:42:05,301]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常注册
+[2020-10-03 23:42:05,341]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第2条测试用例:不输入手机号
+[2020-10-03 23:42:05,346]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第3条测试用例:不输入密码
+[2020-10-03 23:42:05,351]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第4条测试用例:输入已存在的手机号
+[2020-10-03 23:42:05,360]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第5条测试用例:输入错误的手机号
+[2020-10-03 23:42:43,690]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常注册
+[2020-10-03 23:42:43,766]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第2条测试用例:不输入手机号
+[2020-10-03 23:42:43,822]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第3条测试用例:不输入密码
+[2020-10-03 23:42:43,881]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第4条测试用例:输入已存在的手机号
+[2020-10-03 23:42:43,942]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第5条测试用例:输入错误的手机号
+[2020-10-03 23:45:06,906]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常注册
+[2020-10-03 23:45:07,004]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第2条测试用例:不输入手机号
+[2020-10-03 23:45:07,089]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第3条测试用例:不输入密码
+[2020-10-03 23:45:07,152]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第4条测试用例:输入已存在的手机号
+[2020-10-03 23:45:07,213]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第5条测试用例:输入错误的手机号
+[2020-10-03 23:47:09,801]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第1条测试用例:正常注册
+[2020-10-03 23:47:09,873]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:47:09,892]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第2条测试用例:不输入手机号
+[2020-10-03 23:47:09,952]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:47:09,960]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第3条测试用例:不输入密码
+[2020-10-03 23:47:10,010]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:47:10,018]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第4条测试用例:输入已存在的手机号
+[2020-10-03 23:47:10,075]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:47:10,083]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试Register模块里的第5条测试用例:输入错误的手机号
+[2020-10-03 23:47:10,139]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:51:01,154]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试login模块里的第1条测试用例:正常登录
+[2020-10-03 23:51:01,219]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:51:01,228]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试add_loan模块里的第2条测试用例:加标
+[2020-10-03 23:51:01,609]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
+[2020-10-03 23:51:01,614]-[INFO]-[my_log.py]-[api-log]-日志信息：正在测试audit模块里的第3条测试用例:审核到4状态
+[2020-10-03 23:51:01,681]-[ERROR]-[my_log.py]-[api-log]-日志信息：http请求测试用例出错了,错误是:Expecting value: line 1 column 1 (char 0)
